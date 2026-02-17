@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>task2</title>
+</head>
+<body>
+     <!-- Task 2: Survey Form -->
+     <!--Create a survey form with: rating (range input), date visited (date picker),
+      time (time picker), favorite color (color picker), search field, and datalist for suggestions. Make it fully functional with proper semantics.-->
+
+         <h1>survey form </h1>    
+     <form action="">
+        <label for="rating"> rating</label>
+        <input type="range" name="rating" value="" id="rating"><br><br>
+
+        <label for="date"> date visited</label>
+        <input type="date" name="date" value="" id="date"><br><br>
+
+        <label for="time">time </label>
+        <input type="time" name="time" value="" id="time"><br><br>
+
+        <label for="color">favorite color </label>
+        <input type="color" name="color" value="" id="color"><br><br>
+
+        <label for=" search">  search </label>
+        <input type="search" name=" search" value="" id=" search"><br><br>
+        
+        <label for=" suggestions">  suggestions </label>
+          <input list="suggestions" name="suggestion" id="suggestion">
+            <datalist id="suggestions">
+                <option value="HTML">
+                <option value="CSS">
+                <option value="JS">               
+            </datalist><br><br>   
+
+   <button>submit</button>
+
+
+     </form>
+  </body>
+</html>

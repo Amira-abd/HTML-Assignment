@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>task1</title>
+
+</head>
+<body>
+     <!--Task 1: Complete Registration Form-->
+     <!--Create a full registration form with: name, email, password (with confirmation), age, country (dropdown),
+      gender (radio), interests (checkboxes), profile picture upload, bio (textarea), and terms acceptance checkbox.
+       Include proper labels, validation, and all appropriate attributes.-->
+
+   <h1>Registration form </h1>    
+     <form action="">
+        <label for="name"> Name</label>
+        <input type="text" name="name" value="" id="name"><br><br>
+
+        <label for="Email"> Email</label>
+        <input type="email" name="Email" value="" id="Email"><br><br>
+   
+
+         <label for="Password"> Password</label>
+        <input type="password" name="Password" value="" id="Password">
+        <input type="password" placeholder="confirm Password" id="" required><br><br>      
+        
+        <label for="age"> age</label>
+        <input type="number" name="age" value="" id="age"><br><br>
+
+        <label for="country"> country</label>
+        <select name="" id="">
+          <option value="">Egypt</option>
+          <option value="UAE">UAE</option>
+          <option value="Yemen">Yemen</option>
+
+        </select><br><br>
+
+
+        <label for="gender"> Male</label>
+        <input type="radio" name="s" value="male" >
+        <label for="gender"> Female</label>
+        <input type="radio" name="s" value="female" > <br><br>    
+        
+        
+        <input type="checkbox" id="interest1" name="interest1" value="Reading">
+        <label for="interest1"> Reading</label><br>
+        <input type="checkbox" id="interest2" name="interest2" value="Drawing">
+        <label for="interest2"> Drawing</label><br>
+        <input type="checkbox" id="interest3" name="interest3" value="swimming">
+        <label for="interest3"> swimming</label><br>
+        
+        <label for="picture"> profile picture upload</label>
+        <input type="file" name="picture" value="" accept=".png"><br><br>    
+
+        <label for="bio"> bio  </label>
+        <textarea name="bio" id=""></textarea><br><br>    
+        
+        <input type="checkbox" id="terms" name="terms" value="">
+        <label for="terms"> I agree to the Terms and Conditions </label><br><br>   
+
+           <button>submit</button>
+
+     </form>
+</body>
+</html>
